@@ -1,4 +1,4 @@
-// Background service worker for Bandcamp Disturbed Intro
+// Background service worker for dwtscamp
 chrome.runtime.onInstalled.addListener(() => {
-  console.log('Bandcamp Disturbed Intro extension installed.');
+  console.log('dwtscamp extension installed.');
 });

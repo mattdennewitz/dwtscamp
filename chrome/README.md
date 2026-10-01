@@ -1,4 +1,4 @@
-# Bandcamp Disturbed Intro Chrome Extension
+# dwtscamp Chrome Extension
 
 Plays Disturbed's iconic "ooo-ah-ah-ah" vocal burst from *Down with the Sickness* before any track begins playing on Bandcamp (`bandcamp.com` and all `*.bandcamp.com` artist domains).
 
@@ -22,5 +22,5 @@ Plays Disturbed's iconic "ooo-ah-ah-ah" vocal burst from *Down with the Sickness
 
 1. Open Google Chrome and navigate to `chrome://extensions`.
 2. Toggle on **Developer mode** in the top right corner.
-3. Click **Load unpacked** and select the `/Users/matt/src/ooo-ah-ah-ah-ah` directory.
+3. Click **Load unpacked** and select the `/Users/matt/src/dwtscamp/chrome` directory.
 4. Visit any album or track on [Bandcamp](https://bandcamp.com) (e.g. `https://c418.bandcamp.com/album/one`) and press **Play**!

@@ -1,6 +1,6 @@
-// Background script for Bandcamp Disturbed Intro (Firefox)
+// Background script for dwtscamp (Firefox)
 const browserAPI = typeof browser !== 'undefined' ? browser : chrome;
 
 browserAPI.runtime.onInstalled.addListener(() => {
-  console.log('[Bandcamp Disturbed Intro] Firefox extension installed.');
+  console.log('[dwtscamp] Firefox extension installed.');
 });

@@ -1,4 +1,4 @@
-// Bandcamp Disturbed Intro Content Script (Page / MAIN world)
+// dwtscamp Content Script (Page / MAIN world)
 // Reliably intercepts Bandcamp track playback and plays Disturbed's "ooo-ah-ah-ah" before any track begins.
 
 (function () {
@@ -182,7 +182,7 @@
 
       introAudio.addEventListener('ended', startTrack, { once: true });
       introAudio.addEventListener('error', (err) => {
-        console.warn('[Bandcamp Disturbed Intro] Error loading intro audio:', err);
+        console.warn('[dwtscamp] Error loading intro audio:', err);
         startTrack();
       }, { once: true });
 
@@ -199,7 +199,7 @@
       }, 4000);
 
       origPlay.call(introAudio).catch((err) => {
-        console.warn('[Bandcamp Disturbed Intro] Playback failed or was blocked by browser:', err);
+        console.warn('[dwtscamp] Playback failed or was blocked by browser:', err);
         startTrack();
       });
     });
@@ -239,5 +239,5 @@
     });
   }
 
-  console.log('[Bandcamp Disturbed Intro] Content script active with pause cancellation & session tracking.');
+  console.log('[dwtscamp] Content script active with pause cancellation & session tracking.');
 })();

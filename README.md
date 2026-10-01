@@ -1,4 +1,4 @@
-# Bandcamp Disturbed Hijack Extension
+# dwtscamp
 
 Plays Disturbed's iconic **"ooo-ah-ah-ah"** vocal burst from *Down with the Sickness* before any track plays on [Bandcamp](https://bandcamp.com) (`bandcamp.com` and all `*.bandcamp.com` artist domains).
 
@@ -9,7 +9,7 @@ Both **Google Chrome** (Chromium / Brave / Edge) and **Mozilla Firefox** version
 ## Repository Structure
 
 ```text
-bandcamp-hijack/
+dwtscamp/
 ├── chrome/                      # Chrome / Chromium Manifest V3 extension
 │   ├── manifest.json            # Chrome MV3 manifest (service_worker background)
 │   ├── bridge.js                # Content bridge passing extension asset URLs
@@ -25,7 +25,7 @@ bandcamp-hijack/
 │   ├── background.js            # Background script
 │   ├── disturbed-ooo-ah-ah-ah.mp3 # 48kHz audio clip (2.14s)
 │   ├── icons/                   # 16px, 48px, 128px PNG icons & vector SVG
-│   └── bandcamp-disturbed-intro-firefox.zip # Packaged add-on ready for loading
+│   └── dwtscamp-firefox.zip      # Packaged add-on ready for loading
 │
 └── README.md                    # Installation and sideloading documentation
 ```
@@ -55,9 +55,9 @@ bandcamp-hijack/
 3. Click the **Load unpacked** button in the top-left toolbar.
 4. Select the `chrome` directory:
    ```text
-   /Users/matt/src/bandcamp-hijack/chrome
+   /Users/matt/src/dwtscamp/chrome
    ```
-5. The extension **Bandcamp Disturbed Intro** will appear in your extensions list and is active immediately.
+5. The extension **dwtscamp** will appear in your extensions list and is active immediately.
 
 ---
 
@@ -70,8 +70,8 @@ bandcamp-hijack/
    ```
 2. Click **Load Temporary Add-on…**.
 3. Select either:
-   - `manifest.json` inside `/Users/matt/src/bandcamp-hijack/firefox/manifest.json`, OR
-   - The pre-packaged zip archive: `/Users/matt/src/bandcamp-hijack/firefox/bandcamp-disturbed-intro-firefox.zip`.
+   - `manifest.json` inside `/Users/matt/src/dwtscamp/firefox/manifest.json`, OR
+   - The pre-packaged zip archive: `/Users/matt/src/dwtscamp/firefox/dwtscamp-firefox.zip`.
 4. The add-on is loaded and active for your session.
 
 #### Method 2: Permanent Installation (Firefox Developer Edition / Nightly)
@@ -82,7 +82,7 @@ Standard release builds of Firefox require extensions to be signed by Mozilla Ad
    ```
 2. Navigate to `about:addons`.
 3. Click the gear icon (⚙) at the top of the page and choose **Install Add-on From File…**.
-4. Select `/Users/matt/src/bandcamp-hijack/firefox/bandcamp-disturbed-intro-firefox.zip`.
+4. Select `/Users/matt/src/dwtscamp/firefox/dwtscamp-firefox.zip`.
 5. Click **Add** when prompted to install permanently.
 
 ---

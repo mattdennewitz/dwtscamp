@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Bandcamp Disturbed Intro",
+  "name": "dwtscamp",
   "version": "1.0.0",
   "description": "Plays Disturbed's iconic ooo-ah-ah-ah before any Bandcamp track plays.",
   "icons": {
@@ -10,7 +10,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "bandcamp-disturbed-intro@matt.dev",
+      "id": "dwtscamp@matt.dev",
       "strict_min_version": "109.0"
     }
   },
